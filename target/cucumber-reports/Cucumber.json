@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify the landing page of the weather report",
+        "description": "",
+        "id": "weather-report-validation;verify-the-landing-page-of-the-weather-report",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 69071600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Initiate the chrome driver",
+            "match": {
+              "location": "Stepdefinition.initiate_the_chrome_driver()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33949655900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to weather report url",
+            "match": {
+              "location": "Stepdefinition.navigate_to_weather_report_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 325800,
+              "error_message": "junit.framework.AssertionFailedError: Weather report difference is 272.93\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat UpMan.WeatherReport.utilites.weathercomaprision(utilites.java:79)\r\n\tat UpMan.WeatherReport.Stepdefinition.readWeather(Stepdefinition.java:28)\r\n\tat ✽.Then Verify the landing page(weather.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Verify the landing page",
+            "match": {
+              "location": "Stepdefinition.readWeather()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Weather Report Validation",
+    "description": "",
+    "id": "weather-report-validation",
+    "keyword": "Feature",
+    "uri": "weather.feature"
+  }
+]

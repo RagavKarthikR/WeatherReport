@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="34.019053">
+<testcase classname="Weather Report Validation" name="Verify the landing page of the weather report" time="34.019053">
+<failure message="junit.framework.AssertionFailedError: Weather report difference is 272.93&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:57)&#13;&#10;&#9;at UpMan.WeatherReport.utilites.weathercomaprision(utilites.java:79)&#13;&#10;&#9;at UpMan.WeatherReport.Stepdefinition.readWeather(Stepdefinition.java:28)&#13;&#10;&#9;at ✽.Then Verify the landing page(weather.feature:6)&#13;&#10;"><![CDATA[Given Initiate the chrome driver............................................passed
+When Navigate to weather report url.........................................passed
+Then Verify the landing page................................................failed
+
+StackTrace:
+junit.framework.AssertionFailedError: Weather report difference is 272.93
+	at junit.framework.Assert.fail(Assert.java:57)
+	at UpMan.WeatherReport.utilites.weathercomaprision(utilites.java:79)
+	at UpMan.WeatherReport.Stepdefinition.readWeather(Stepdefinition.java:28)
+	at ✽.Then Verify the landing page(weather.feature:6)
+]]></failure>
+</testcase>
+</testsuite>
